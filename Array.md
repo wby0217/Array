@@ -1,4 +1,4 @@
-## 冒泡排序
+### 冒泡排序
     ```
     function beble(arr) {
         var flag = false;
@@ -23,7 +23,7 @@
     var abc = beble(arr);   //输出 1, 2, 3, 4, 5
     ```
 
-## 数组快速排序
+### 数组快速排序
 ```
     function quk(ary) {
          if(ary.length <= 1) {
@@ -43,7 +43,7 @@
     console.log(quk(ary)) //输出 1,, 1, 2, 2, 3, 3, 4, 4
     ```
 
-## 插入排序
+### 插入排序
 ```
     function pushs(ary) {
         var newArr = [];
@@ -70,7 +70,7 @@
     console.log(arr) //2, 3, 4, 5, 6, 7
     ```
 
-## 数组去重
+### 数组去重
 ```
     function fn(ary) {
         var obj = {}
@@ -92,7 +92,7 @@
     console.log(arr) // 1, 3, 4, 2
 ```
 
-## 函数递归方法实现10以内被3整除的数相加
+### 函数递归方法实现10以内被3整除的数相加
 ```
     function sum(n) {
         if(n == 0) {
@@ -107,7 +107,7 @@
     console.log(add) // 输出18
     ```
 
-## 递归方法用 setTimeout 实现 setInterval
+### 递归方法用 setTimeout 实现 setInterval
 ```
     var sum = 0;
     var timer = null;
